@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+/**
+ * main - entry point
+ * Return: 0
+ */
 int main(void)
 {
 int n;
@@ -14,7 +17,7 @@ printf("%d is positive\n", n);
 }
 else if (n == 0)
 {
-printf("%d is equal to zero\n", n);
+printf("%d is equal to a zero\n", n);
 }
 else
 {
