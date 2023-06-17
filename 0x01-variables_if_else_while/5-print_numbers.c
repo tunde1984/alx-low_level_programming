@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Main - entry point
- * Description: It prints singlr digit number.
+ * main - this is the main function of the program
+ * Description: It prints all single digit number in base 10 from 0
  * Return: 0
  */
 int main(void)
