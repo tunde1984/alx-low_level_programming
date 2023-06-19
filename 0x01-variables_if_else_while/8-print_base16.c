@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - this is the main function
- * Description: this print number 16 in lower case
+ * main - This is the main function
+ * Description: It prints numbers 0-9 and lowercase alphabets a-f
  * Return: 0
  */
 int main(void)
@@ -12,7 +12,7 @@ for (n = 48; n <= 57; n++)
 {
 putchar(n);
 }
-for (m = 97; n <= 102; m++)
+for (m = 97; m <= 102; m++)
 {
 putchar(m);
 }
