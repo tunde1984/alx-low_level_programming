@@ -10,14 +10,20 @@ int ten;
 int bas;
 for (ten = 0; ten < 10; ten++)
 {
-for (bas = 0; bas < 10; bas++)
+for (bas = ten; bas < 100; bas++)
 {
-putchar('0' + ten);
-putchar('0' + bas);
-if (!(ten == 9 && bas == 9))
+if (ten != bas)
+{
+putchar('0' + (ten / 10));
+putchar('0' + (ten % 10));
+putchar(' ');
+putchar('0' + (bas / 10));
+putchar('0' + (bas % 10));
+if (ten != 9 || bas != 99)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
