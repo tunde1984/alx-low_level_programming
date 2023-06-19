@@ -6,24 +6,20 @@
  */
 int main(void)
 {
-int ten;
-int bas;
-for (ten = 0; ten < 10; ten++)
+int num1, num2;
+for (num1 = 0; num1 <= 99; num1++)
 {
-for (bas = ten; bas < 100; bas++)
+for (num2 = num1; num2 <= 99; num2++)
 {
-if (ten != bas)
-{
-putchar('0' + (ten / 10));
-putchar('0' + (ten % 10));
+putchar('0' + (num1 / 10));
+putchar('0' + (num1 % 10));
 putchar(' ');
-putchar('0' + (bas / 10));
-putchar('0' + (bas % 10));
-if (ten != 9 || bas != 99)
+putchar('0' + (num2 / 10));
+putchar('0' + (num2 % 10));
+if (num1 != 99 || num2 != 99)
 {
 putchar(',');
 putchar(' ');
-}
 }
 }
 }
