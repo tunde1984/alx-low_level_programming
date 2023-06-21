@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - adds n1 and n2
+ * @n1: the first number input
+ * @n2: second number input
+ * Return: integer value
  */
-int add(int a, int b)
+int add(int n1, int n2)
 {
-int sum = a + b;
-return sum;
-}
-return (0);
+return (n1 + n2);
 }
