@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - adds n1 and n2
+ * main - adds integers
  * @n1: the first number input
  * @n2: second number input
- * Return: integer value
+ * Return: the sum of n1 and n2
  */
 int add(int n1, int n2)
 {
